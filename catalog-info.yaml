@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "{{SERVICE_NAME}}"
+  name: "test-scaffold-1"
   annotations:
     "humanitec.com/orgId": "port-webinar"
-    "humanitec.com/appId": "{{SERVICE_NAME}}"
+    "humanitec.com/appId": "test-scaffold-1"
 spec:
   type: service
   owner: user:guest
